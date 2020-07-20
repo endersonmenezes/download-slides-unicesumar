@@ -1,42 +1,41 @@
-# Slides UniCesumar (EaD)
-Script para baixar os slides de uma aula EaD da UniCesumar.
-Esse script não visa quebrar nenhum direito, ou normas da Instituição.
-Apenas automatizar o processo de Download de Slides das Aulas EaD.
+# Download UniCesumar (EaD)
+Script para baixar todos os materiais e conteudos disponíveis para você, além de organizar isso em um diretório que você deseja.
 
+
+**Esse script não visa quebrar nenhum direito, ou normas da Instituição.
+Apenas automatizar o processo de Download de Slides das Aulas EaD.**
+
+# Selenium
+
+A pasta /drivers/ contém os drivers para Win64 e Linux64 utlizando Firefox.
 
 ## Como configurar?
-
-Crie um arquivo chamado **config.py** e siga o seguinte modelo:
-
-```python
-MATERIAS = {}
-
-MATERIAS['nome_da_pasta_que_voce_deseja'] = {
-    'aula01':'idTransmissao01',
-    'aula02':'idTransmissao02',
-}
-
-MATERIAS['nome_da_pasta_que_voce_deseja_2'] = {
-    'aula01':'idTransmissao01',
-    'aula02':'idTransmissao02',
-}
-```
 
 Crie um arquivo *.env* no mesmo diretório e utilize a configuração abaixo:
 
 ```.env
-DIRECTORY_UNIVERSIDADE="C:\Users\ender\Google Drive\UniCesumar\Universidade\EAD Modulos"
-STUDEO_USER="******"
-STUDEO_PASS="*******"
+DIRECTORY_UNIVERSIDADE="C:/Users/ender/Desktop/Teste Script"
+USER_RA="******"
+USER_SENHA="*******"
+OS_USER="W"
 ```
+**Atenção nao termine com "/" e utilize as barras conforme exemplo**
 
-Não se preocupe em preencher a sua senha e usuário, esse modulo ainda não funciona mesmo :)
-
+O campo **OS_USER** deve ser preenchido com "W" para Windows e "L" para Linux.
 ## Como executar?
+Desenvolvido e testado com **Python 3.8.2**, recomenda-se utilização de uma venv para execução.
+ 
+Para criar uma venv
+
+```.shell script
+python3.8 -m venv venv
+source venv/bin/activate
+```
 
 Digite para abrir o script:
 
 ```.shell script
+python -m pip install -r requirements.txt
 python main.py
 ```
 
@@ -44,3 +43,14 @@ python main.py
 
 Sinta-se livre para colaborar, estou ajeitando o código, crie uma **Issue** e conversamos :)
 
+## TODO
+
+- [X] Autenticação com Login e Senha;
+- [X] Login via Selenium;
+- [X] Função Download dos Materiais do curso;
+- [ ] Função Download dos Materiais de cada materia;
+- [ ] Perceber quais materias são EAD e possuem video-aulas para baixar os slides;
+- [ ] Customizar essa opções para usuário em um Menu.
+- [ ] Remover código não comentado
+- [ ] Preparar versão beta
+- [ ] Criar manual para utilização do GoogleColab
