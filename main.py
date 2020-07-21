@@ -12,7 +12,7 @@ from auxiliar.procedimentos import procedimento_baixar_arquivos
 
 print('UniCesumar Download - Um facilitador para o uso do Studeo!')
 print('Carregando imports...')
-opcao_inicial = input('Se você está utilizando as váriaveis de ambiente digite 1, se você irá digitar manualmente digite 2')
+opcao_inicial = input('Se você está utilizando as váriaveis de ambiente digite 1, se você irá digitar manualmente digite 2 -> ')
 if int(opcao_inicial) == 1:
     load_dotenv()
     directory_pwd = os.getenv('DIRECTORY_UNIVERSIDADE')
