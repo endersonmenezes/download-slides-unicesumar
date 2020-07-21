@@ -19,12 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="505e45de-f9f4-4d6d-a106-ac4c823ef1d7" name="Default Changelist" comment="requirements.txt">
-      <change afterPath="$PROJECT_DIR$/auxiliar/funcoes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auxiliar/procedimentos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="505e45de-f9f4-4d6d-a106-ac4c823ef1d7" name="Default Changelist" comment="começando a dividir funções e procedimentos e criando a parte das disciplinas">
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +75,7 @@
       <updated>1595277718416</updated>
       <workItem from="1595277724035" duration="10684000" />
       <workItem from="1595332447576" duration="5075000" />
-      <workItem from="1595338634357" duration="3127000" />
+      <workItem from="1595338634357" duration="3477000" />
     </task>
     <task id="LOCAL-00001" summary="Revivendo projeto :)&#10;- Funcionando login e baixando materiais do curso.">
       <created>1595288424684</created>
@@ -102,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595337752876</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="começando a dividir funções e procedimentos e criando a parte das disciplinas">
+      <created>1595341859969</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595341859969</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,17 +127,18 @@
     <MESSAGE value="Revivendo projeto :)&#10;- Funcionando login e baixando materiais do curso." />
     <MESSAGE value="- fechar webdrive apos o codigo :)" />
     <MESSAGE value="requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="requirements.txt" />
+    <MESSAGE value="começando a dividir funções e procedimentos e criando a parte das disciplinas" />
+    <option name="LAST_COMMIT_MESSAGE" value="começando a dividir funções e procedimentos e criando a parte das disciplinas" />
   </component>
   <component name="WindowStateProjectService">
     <state x="461" y="165" key="SettingsEditor" timestamp="1595338996717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595338996717" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595337757999">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595341866979">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595337757999" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595341866979" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595279413306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
