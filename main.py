@@ -98,5 +98,5 @@ for arquivo in arquivos_gerais:
 #     print(element.text)
 
 # print(elemento_arquivos.get_attribute('innerHTML'))
-# webdrive.quit()
+webdrive.quit()
 print('Webdrive encerrado, fim de código.')

@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="505e45de-f9f4-4d6d-a106-ac4c823ef1d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" />
+    <list default="true" id="505e45de-f9f4-4d6d-a106-ac4c823ef1d7" name="Default Changelist" comment="Revivendo projeto :)&#10;- Funcionando login e baixando materiais do curso.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,8 +69,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595277718416</updated>
-      <workItem from="1595277724035" duration="9709000" />
+      <workItem from="1595277724035" duration="10659000" />
     </task>
+    <task id="LOCAL-00001" summary="Revivendo projeto :)&#10;- Funcionando login e baixando materiais do curso.">
+      <created>1595288424684</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595288424685</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,11 +95,19 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Revivendo projeto :)&#10;- Funcionando login e baixando materiais do curso." />
+    <option name="LAST_COMMIT_MESSAGE" value="Revivendo projeto :)&#10;- Funcionando login e baixando materiais do curso." />
+  </component>
   <component name="WindowStateProjectService">
     <state x="461" y="165" key="SettingsEditor" timestamp="1595277967776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595277967776" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595288437053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595288437053" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595279413306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
