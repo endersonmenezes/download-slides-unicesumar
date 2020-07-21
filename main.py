@@ -22,6 +22,7 @@ if int(opcao_inicial) == 1:
     print('Carregando váriaveis de ambiente...')
 else:
     directory_pwd = input('Copie e cole a pasta que você deixa utilizar para os arquivos: ')
+    directory_pwd = directory_pwd.replace('\\', '/')
     user_ra = input('Qual o seu RA? ')
     user_pass = input('Qual a senha do seu STUDEO? ')
     os_user = 'W'
