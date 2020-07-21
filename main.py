@@ -9,14 +9,23 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 from auxiliar.funcoes import nome_arquivo_safe
 from auxiliar.procedimentos import procedimento_baixar_arquivos
-print('Carregando imports...')
 
-load_dotenv()
-directory_pwd = os.getenv('DIRECTORY_UNIVERSIDADE')
-user_ra = os.getenv('USER_RA')
-user_pass = os.getenv('USER_SENHA')
-os_user = os.getenv('OS_USER')
-print('Carregando váriaveis de ambiente...')
+print('UniCesumar Download - Um facilitador para o uso do Studeo!')
+print('Carregando imports...')
+opcao_inicial = input('Se você está utilizando as váriaveis de ambiente digite 1, se você irá digitar manualmente digite 2')
+if int(opcao_inicial) == 1:
+    load_dotenv()
+    directory_pwd = os.getenv('DIRECTORY_UNIVERSIDADE')
+    user_ra = os.getenv('USER_RA')
+    user_pass = os.getenv('USER_SENHA')
+    os_user = os.getenv('OS_USER')
+    print('Carregando váriaveis de ambiente...')
+else:
+    directory_pwd = input('Copie e cole a pasta que você deixa utilizar para os arquivos: ')
+    user_ra = input('Qual o seu RA? ')
+    user_pass = input('Qual a senha do seu STUDEO? ')
+    os_user = 'W'
+    print('Carregando opções...')
 
 rota_login = "https://studeo.unicesumar.edu.br/"
 rota_arquivos_gerais = "https://studeo.unicesumar.edu.br/#!/app/studeo/aluno/ambiente/arquivo-geral"
