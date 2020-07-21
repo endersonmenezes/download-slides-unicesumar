@@ -19,8 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="505e45de-f9f4-4d6d-a106-ac4c823ef1d7" name="Default Changelist" comment="Revivendo projeto :)&#10;- Funcionando login e baixando materiais do curso.">
+    <list default="true" id="505e45de-f9f4-4d6d-a106-ac4c823ef1d7" name="Default Changelist" comment="requirements.txt">
+      <change afterPath="$PROJECT_DIR$/auxiliar/funcoes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auxiliar/procedimentos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/auxiliar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,6 +61,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ender\GitHub\download-slides-unicesumar\auxiliar" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -69,7 +77,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595277718416</updated>
-      <workItem from="1595277724035" duration="10659000" />
+      <workItem from="1595277724035" duration="10684000" />
+      <workItem from="1595332447576" duration="5075000" />
+      <workItem from="1595338634357" duration="3127000" />
     </task>
     <task id="LOCAL-00001" summary="Revivendo projeto :)&#10;- Funcionando login e baixando materiais do curso.">
       <created>1595288424684</created>
@@ -78,7 +88,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595288424685</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- fechar webdrive apos o codigo :)">
+      <created>1595290286147</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595290286147</updated>
+    </task>
+    <task id="LOCAL-00003" summary="requirements.txt">
+      <created>1595337752876</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595337752876</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,20 +118,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Revivendo projeto :)&#10;- Funcionando login e baixando materiais do curso." />
-    <option name="LAST_COMMIT_MESSAGE" value="Revivendo projeto :)&#10;- Funcionando login e baixando materiais do curso." />
+    <MESSAGE value="- fechar webdrive apos o codigo :)" />
+    <MESSAGE value="requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="requirements.txt" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="165" key="SettingsEditor" timestamp="1595277967776">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1595338996717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595277967776" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595288437053">
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595338996717" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595337757999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595288437053" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595337757999" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595279413306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

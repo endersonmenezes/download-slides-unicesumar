@@ -23,7 +23,7 @@ OS_USER="W"
 
 O campo **OS_USER** deve ser preenchido com "W" para Windows e "L" para Linux.
 ## Como executar?
-Desenvolvido e testado com **Python 3.8.2**, recomenda-se utilização de uma venv para execução.
+Desenvolvido e testado com **Python 3.8.5**, recomenda-se utilização de uma venv para execução.
  
 Para criar uma venv
 
@@ -48,7 +48,7 @@ Sinta-se livre para colaborar, estou ajeitando o código, crie uma **Issue** e c
 - [X] Autenticação com Login e Senha;
 - [X] Login via Selenium;
 - [X] Função Download dos Materiais do curso;
-- [ ] Função Download dos Materiais de cada materia;
+- [X] Função Download dos Materiais de cada materia;
 - [ ] Perceber quais materias são EAD e possuem video-aulas para baixar os slides;
 - [ ] Customizar essa opções para usuário em um Menu.
 - [ ] Remover código não comentado
