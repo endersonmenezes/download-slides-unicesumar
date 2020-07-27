@@ -14,7 +14,7 @@ A pasta /drivers/ contém os drivers para Win64 e Linux64 utlizando Firefox. [Cl
 Crie um arquivo *.env* no mesmo diretório e utilize a configuração abaixo:
 
 ```.env
-DIRECTORY_UNIVERSIDADE="C:/Users/ender/Desktop/Teste Script"
+DIRECTORY_UNIVERSIDADE="C:/Users/ender/Desktop/Pasta_Universidade"
 USER_RA="******"
 USER_SENHA="*******"
 OS_USER="W"
