@@ -7,7 +7,7 @@ Apenas automatizar o processo de Download dentro do Studeo.**
 
 # Selenium
 
-A pasta /drivers/ contém os drivers para Win64 e Linux64 utlizando Firefox.
+A pasta /drivers/ contém os drivers para Win64 e Linux64 utlizando Firefox. [Clique aqui](https://github.com/mozilla/geckodriver/releases) se você deseja consultar a fonte desses arquivos.
 
 ## Como configurar?
 
