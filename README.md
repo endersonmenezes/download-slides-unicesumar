@@ -58,3 +58,4 @@ Sinta-se livre para colaborar, estou ajeitando o código, crie uma **Issue** e c
 - [ ] Remover código não comentado
 - [ ] Preparar versão beta
 - [ ] Criar manual para utilização do GoogleColab
+- [ ] Criar versão utilizando o Docker
