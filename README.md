@@ -3,7 +3,7 @@ Script para baixar todos os materiais e conteudos disponíveis para você, além
 
 
 **Esse script não visa quebrar nenhum direito, ou normas da Instituição.
-Apenas automatizar o processo de Download de Slides das Aulas EaD.**
+Apenas automatizar o processo de Download dentro do Studeo.**
 
 # Selenium
 
