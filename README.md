@@ -39,6 +39,9 @@ python -m pip install -r requirements.txt
 python main.py
 ```
 
+## Executável no Windows
+
+
 ## Como colaborar?
 
 Sinta-se livre para colaborar, estou ajeitando o código, crie uma **Issue** e conversamos :)
@@ -49,7 +52,7 @@ Sinta-se livre para colaborar, estou ajeitando o código, crie uma **Issue** e c
 - [X] Login via Selenium;
 - [X] Função Download dos Materiais do curso;
 - [X] Função Download dos Materiais de cada materia;
-- [X] Desenvolvimento EXE para Windows;
+- [ ] Desenvolvimento EXE para Windows;
 - [ ] Perceber quais materias são EAD e possuem video-aulas para baixar os slides;
 - [ ] Customizar essa opções para usuário em um Menu.
 - [ ] Remover código não comentado
