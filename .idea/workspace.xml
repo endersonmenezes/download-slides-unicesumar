@@ -1,182 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="505e45de-f9f4-4d6d-a106-ac4c823ef1d7" name="Default Changelist" comment="Gitignore output :)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="36acb82d-dd54-47c1-be2e-9ea49dfa5106" name="Default Changelist" comment="begin" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="ProjectId" id="1exypAknbNxOQjblecSPqRejOhD" />
+  <component name="JupyterTrust" id="eb0e85db-57cf-4766-89b6-32bf53d2f64a" />
+  <component name="ProjectId" id="1ZrHjqUpzdC4zk30dkV8gBKF4De" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/auxiliar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ender\GitHub\download-slides-unicesumar\auxiliar" />
-    </key>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="505e45de-f9f4-4d6d-a106-ac4c823ef1d7" name="Default Changelist" comment="" />
-      <created>1595277718416</created>
+      <changelist id="36acb82d-dd54-47c1-be2e-9ea49dfa5106" name="Default Changelist" comment="" />
+      <created>1585590430364</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1595277718416</updated>
-      <workItem from="1595277724035" duration="10684000" />
-      <workItem from="1595332447576" duration="5075000" />
-      <workItem from="1595338634357" duration="4902000" />
+      <updated>1585590430364</updated>
+      <workItem from="1585590435262" duration="570000" />
+      <workItem from="1585591032478" duration="1525000" />
+      <workItem from="1585592583828" duration="4184000" />
+      <workItem from="1597689357549" duration="95000" />
     </task>
-    <task id="LOCAL-00001" summary="Revivendo projeto :)&#10;- Funcionando login e baixando materiais do curso.">
-      <created>1595288424684</created>
+    <task id="LOCAL-00001" summary="begin">
+      <created>1585596734798</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1595288424685</updated>
+      <updated>1585596734798</updated>
     </task>
-    <task id="LOCAL-00002" summary="- fechar webdrive apos o codigo :)">
-      <created>1595290286147</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1595290286147</updated>
-    </task>
-    <task id="LOCAL-00003" summary="requirements.txt">
-      <created>1595337752876</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1595337752876</updated>
-    </task>
-    <task id="LOCAL-00004" summary="começando a dividir funções e procedimentos e criando a parte das disciplinas">
-      <created>1595341859969</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1595341859969</updated>
-    </task>
-    <task id="LOCAL-00005" summary="requirements.txt">
-      <created>1595342120262</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1595342120262</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Preparando para funcionar com Source Code e com EXE">
-      <created>1595342792923</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1595342792923</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Gitignore output :)">
-      <created>1595342828086</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1595342828086</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Gitignore output :)">
-      <created>1595342868876</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1595342868876</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Revivendo projeto :)&#10;- Funcionando login e baixando materiais do curso." />
-    <MESSAGE value="- fechar webdrive apos o codigo :)" />
-    <MESSAGE value="começando a dividir funções e procedimentos e criando a parte das disciplinas" />
-    <MESSAGE value="requirements.txt" />
-    <MESSAGE value="Preparando para funcionar com Source Code e com EXE" />
-    <MESSAGE value="Gitignore output :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gitignore output :)" />
+    <MESSAGE value="begin" />
+    <option name="LAST_COMMIT_MESSAGE" value="begin" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="222" key="RollbackChangesDialog" timestamp="1595342772608">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1597689430245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="734" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595342772608" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1595338996717">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595338996717" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595342873022">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595342873022" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595279413306">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595279413306" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597689430245" />
   </component>
 </project>
