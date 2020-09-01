@@ -131,3 +131,7 @@ dmypy.json
 .idea/misc.xml
 .idea/inspectionProfiles/profiles_settings.xml
 /output/
+
+# Pasta com Arquivos do Usuário
+universidade/disciplinas/*
+universidade/arquivos_gerais/*

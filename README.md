@@ -1,46 +1,32 @@
 # Download UniCesumar (EaD)
-Script para baixar todos os materiais e conteudos disponíveis para você, além de organizar isso em um diretório que você deseja.
-
+Script para baixar todos os materiais e conteudos disponíveis para você, além de organizar isso em um diretório que você deseja. Eu utilizo o PyCharm estão se você utilizar também recebera algumas configurações ao abrir o projeto.
 
 **Esse script não visa quebrar nenhum direito, ou normas da Instituição.
 Apenas automatizar o processo de Download dentro do Studeo.**
 
-# Selenium
-
-A pasta /drivers/ contém os drivers para Win64 e Linux64 utlizando Firefox. [Clique aqui](https://github.com/mozilla/geckodriver/releases) se você deseja consultar a fonte desses arquivos.
+# Como utilizar?
 
 ## Como configurar?
 
 Crie um arquivo *.env* no mesmo diretório e utilize a configuração abaixo:
 
 ```.env
-DIRECTORY_UNIVERSIDADE="C:/Users/ender/Desktop/Pasta_Universidade"
-USER_RA="******"
-USER_SENHA="*******"
-OS_USER="W"
+STUDEO_USER=""
+STUDEO_PASS=""
 ```
-**Atenção nao termine com "/" e utilize as barras conforme exemplo**
 
-O campo **OS_USER** deve ser preenchido com "W" para Windows e "L" para Linux.
+Preencha com seu usuário e sua senha do Studeo.
+
 ## Como executar?
-Desenvolvido e testado com **Python 3.8.5**, recomenda-se utilização de uma venv para execução.
- 
-Para criar uma venv
+Basta você ter o Docker instalado em seu computador. Se você utiliza Windows, [esse site](https://docs.docker.com/docker-for-windows/install/) pode te ajudar.
 
-```.shell script
-python3.8 -m venv venv
-source venv/bin/activate
-```
+````bash
+# Digite o comando abaixo para criar a máquina.
+docker-compose build
 
-Digite para abrir o script:
-
-```.shell script
-python -m pip install -r requirements.txt
-python main.py
-```
-
-## Executável no Windows
-
+# Digite o comando abaixo para rodar o script, lembre-se de configurar o .env
+docker-compose up
+````
 
 ## Como colaborar?
 
@@ -51,11 +37,11 @@ Sinta-se livre para colaborar, estou ajeitando o código, crie uma **Issue** e c
 - [X] Autenticação com Login e Senha;
 - [X] Login via Selenium;
 - [X] Função Download dos Materiais do curso;
-- [X] Função Download dos Materiais de cada materia;
+- [X] Função Download dos Materiais de cada matéria;
 - [ ] Desenvolvimento EXE para Windows;
 - [ ] Perceber quais materias são EAD e possuem video-aulas para baixar os slides;
-- [ ] Customizar essa opções para usuário em um Menu.
-- [ ] Remover código não comentado
-- [ ] Preparar versão beta
-- [ ] Criar manual para utilização do GoogleColab
-- [ ] Criar versão utilizando o Docker
+- [ ] Customizar essa opções para usuário em um Menu;
+- [ ] Remover código não comentado;
+- [ ] Preparar versão beta;
+- [ ] Criar manual para utilização do GoogleColab;
+- [X] Criar versão utilizando o Docker;

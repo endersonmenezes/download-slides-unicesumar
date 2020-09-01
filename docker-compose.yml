@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+  download_unicesumar:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: download_unicesumar
+    command: python main.py
+    volumes:
+    - ./universidade:/code/universidade/
+    env_file:
+      - .env

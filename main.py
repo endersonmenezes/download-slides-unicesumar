@@ -3,6 +3,7 @@ import time
 
 from dotenv import load_dotenv
 from selenium import webdriver
+from pyvirtualdisplay import Display
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
@@ -12,21 +13,19 @@ from auxiliar.procedimentos import procedimento_baixar_arquivos
 
 print('UniCesumar Download - Um facilitador para o uso do Studeo!')
 print('Carregando imports...')
-opcao_inicial = input('Se você está utilizando as váriaveis de ambiente digite 1, se você irá digitar manualmente digite 2 -> ')
-if int(opcao_inicial) == 1:
-    load_dotenv()
-    directory_pwd = os.getenv('DIRECTORY_UNIVERSIDADE')
-    user_ra = os.getenv('USER_RA')
-    user_pass = os.getenv('USER_SENHA')
-    os_user = os.getenv('OS_USER')
-    print('Carregando váriaveis de ambiente...')
-else:
-    directory_pwd = input('Copie e cole a pasta que você deixa utilizar para os arquivos: ')
-    directory_pwd = directory_pwd.replace('\\', '/')
-    user_ra = input('Qual o seu RA? ')
-    user_pass = input('Qual a senha do seu STUDEO? ')
-    os_user = 'W'
-    print('Carregando opções...')
+
+DOCKER_ON = os.getenv('DOCKER_ON', None)
+if DOCKER_ON:
+    display = Display(visible=0, size=(800, 600))
+    display.start()
+    print('Carregando display virtual...')
+
+load_dotenv()
+directory_pwd = './universidade/'
+user_ra = os.getenv('STUDEO_USER')
+user_pass = os.getenv('STUDEO_PASS')
+os_user = os.getenv('OS_USER')
+print('Carregando váriaveis de ambiente...')
 
 rota_login = "https://studeo.unicesumar.edu.br/"
 rota_arquivos_gerais = "https://studeo.unicesumar.edu.br/#!/app/studeo/aluno/ambiente/arquivo-geral"
@@ -39,10 +38,7 @@ webdrive_options.add_argument('-headless')
 webdrive_options.add_argument('-no-sandbox')
 webdrive_options.add_argument('-disable-dev-shm-usage')
 
-if os_user == "W":
-    webdrive = webdriver.Chrome('drivers/geckodriver.exe', options=webdrive_options)
-else:
-    webdrive = webdriver.Chrome('drivers/geckodriver', options=webdrive_options)
+webdrive = webdriver.Firefox(options=webdrive_options)
 
 wait = WebDriverWait(webdrive, 10)
 print('Configurando webdriver...')
@@ -97,4 +93,6 @@ for disciplina in disciplinas:
 
 # print(elemento_arquivos.get_attribute('innerHTML'))
 webdrive.quit()
+if DOCKER_ON:
+    display.stop()
 print('Webdrive encerrado, fim de código.')
