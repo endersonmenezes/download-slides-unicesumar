@@ -19,18 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36acb82d-dd54-47c1-be2e-9ea49dfa5106" name="Default Changelist" comment="begin">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/universidade/arquivo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/download-slides-unicesumar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/download-slides-unicesumar.iml" afterDir="false" />
+    <list default="true" id="36acb82d-dd54-47c1-be2e-9ea49dfa5106" name="Default Changelist" comment="Docker funcionando :)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/geckodriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/geckodriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +72,7 @@
       <workItem from="1597944533516" duration="811000" />
       <workItem from="1598959824075" duration="1226000" />
       <workItem from="1598971195197" duration="1220000" />
-      <workItem from="1598972437885" duration="1921000" />
+      <workItem from="1598972437885" duration="2385000" />
     </task>
     <task id="LOCAL-00001" summary="begin">
       <created>1585596734798</created>
@@ -97,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597689581220</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Docker funcionando :)">
+      <created>1598974422764</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598974422764</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +115,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="begin" />
-    <option name="LAST_COMMIT_MESSAGE" value="begin" />
+    <MESSAGE value="Docker funcionando :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Docker funcionando :)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597691873071">
@@ -137,6 +136,10 @@
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597693159614" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598972861230" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598974434462">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598974434462" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597689586132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

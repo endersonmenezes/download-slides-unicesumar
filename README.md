@@ -7,8 +7,12 @@ Apenas automatizar o processo de Download dentro do Studeo.**
 # Como utilizar?
 
 ## Como configurar?
+Instale git no seu computador, ou faça o download dos arquivos. [Clique aqui](https://git-scm.com/downloads) para baixar o Git.
 
-Crie um arquivo *.env* no mesmo diretório e utilize a configuração abaixo:
+````bash
+git clone https://github.com/endersonmenezes/download-slides-unicesumar.git
+````
+Na pasta que o git criou, ou que você extrair os arquivos baixados, crie um arquivo com o nome **.env** e cole o texto abaixo:
 
 ```.env
 STUDEO_USER=""
@@ -16,6 +20,7 @@ STUDEO_PASS=""
 ```
 
 Preencha com seu usuário e sua senha do Studeo.
+Para criar o arquivo, você pode utilizar o bloco de notas, lembre-se de alterar a extensão dele.
 
 ## Como executar?
 Basta você ter o Docker instalado em seu computador. Se você utiliza Windows, [esse site](https://docs.docker.com/docker-for-windows/install/) pode te ajudar.
