@@ -34,9 +34,9 @@ rota_interna_disciplinas = 'https://studeo.unicesumar.edu.br/#!/app/studeo/aluno
 print('Carregando rotas...')
 
 webdrive_options = webdriver.FirefoxOptions()
-webdrive_options.add_argument('-headless')
-webdrive_options.add_argument('-no-sandbox')
-webdrive_options.add_argument('-disable-dev-shm-usage')
+# webdrive_options.add_argument('-headless')
+# webdrive_options.add_argument('-no-sandbox')
+# webdrive_options.add_argument('-disable-dev-shm-usage')
 
 webdrive = webdriver.Firefox(options=webdrive_options)
 

@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36acb82d-dd54-47c1-be2e-9ea49dfa5106" name="Default Changelist" comment="Docker funcionando :)">
+    <list default="true" id="36acb82d-dd54-47c1-be2e-9ea49dfa5106" name="Default Changelist" comment="Deixando o README, mais simples :)">
+      <change beforePath="$PROJECT_DIR$/.idea/download-slides-unicesumar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/download-slides-unicesumar.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +33,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="JupyterTrust" id="eb0e85db-57cf-4766-89b6-32bf53d2f64a" />
+  <component name="JupyterTrust" id="c2f085df-d259-4531-a9d1-6a07bc616c2d" />
   <component name="ProjectId" id="1ZrHjqUpzdC4zk30dkV8gBKF4De" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -51,6 +52,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -72,7 +78,14 @@
       <workItem from="1597944533516" duration="811000" />
       <workItem from="1598959824075" duration="1226000" />
       <workItem from="1598971195197" duration="1220000" />
-      <workItem from="1598972437885" duration="2385000" />
+      <workItem from="1598972437885" duration="2434000" />
+      <workItem from="1601403229806" duration="896000" />
+      <workItem from="1601755896546" duration="1019000" />
+      <workItem from="1601932957659" duration="609000" />
+      <workItem from="1601993169139" duration="9000" />
+      <workItem from="1602109904946" duration="408000" />
+      <workItem from="1602959967254" duration="263000" />
+      <workItem from="1602960376789" duration="610000" />
     </task>
     <task id="LOCAL-00001" summary="begin">
       <created>1585596734798</created>
@@ -95,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598974422764</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Deixando o README, mais simples :)">
+      <created>1598974871829</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598974871829</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,13 +136,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="begin" />
     <MESSAGE value="Docker funcionando :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Docker funcionando :)" />
+    <MESSAGE value="Deixando o README, mais simples :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deixando o README, mais simples :)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597691873071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597691873071" />
+    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1601757705153">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601757705153" />
     <state x="598" y="281" key="MultipleFileMergeDialog" timestamp="1597689597499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -131,11 +156,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="705" y="222" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597691889971" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1598972861230">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="461" y="194" width="1022" height="737" key="SettingsEditor" timestamp="1602959990357">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597693159614" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598972861230" />
+    <state x="461" y="194" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1602959990357" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598974434462">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
