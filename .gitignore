@@ -135,3 +135,5 @@ dmypy.json
 # Pasta com Arquivos do Usuário
 universidade/disciplinas/*
 universidade/arquivos_gerais/*
+.vscode/*
+.idea/*
