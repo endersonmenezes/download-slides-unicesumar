@@ -68,7 +68,7 @@ procedimento_baixar_arquivos(webdrive, wait, rota_arquivos_gerais, pwd_arquivos_
 webdrive.get(rota_disciplinas)
 elemento_disciplinas = '/html/body/div[2]/div/div[2]/div[1]/div/ui-view/ui-view/ui-view/div/div/div[2]/div/div[1]/div'
 wait.until(EC.presence_of_element_located((By.XPATH, elemento_disciplinas)))
-time.sleep(2)
+time.sleep(10)
 # TODO Trocar o time.sleep() por uma função que corresponde melhor o tempo de carregamento das variaveis do Angular
 console_script = 'return angular.element(document.querySelector("#panel1")).scope().vm.disciplinas'
 disciplinas = webdrive.execute_script(console_script)
