@@ -61,7 +61,7 @@ except:
 
 # BAIXANDO ARQUIVOS GERAIS - BEGIN
 pwd_arquivos_gerais = '{}/arquivos_gerais'.format(directory_pwd)
-procedimento_baixar_arquivos(webdrive, wait, rota_arquivos_gerais, pwd_arquivos_gerais, geral=True)
+procedimento_baixar_arquivos(webdrive, wait, rota_arquivos_gerais, pwd_arquivos_gerais, geral=True, nome_disciplina='Arquivos Gerais')
 # BAIXANDO ARQUIVOS GERAIS - END
 
 # BAIXANDO ARQUIVOS DAS DISCIPLINAS - BEGIN
@@ -81,17 +81,8 @@ for disciplina in disciplinas:
         link_disciplina_arquivos = '{}{}/{}'.format(rota_interna_disciplinas, disciplina['cdShortname'], disciplina['cdShortname'])
         nome_pasta = nome_arquivo_safe(disciplina['nmDisciplina'])
         pwd_materia_tmp = '{}/{}'.format(pwd_disciplinas, nome_pasta)
-        procedimento_baixar_arquivos(webdrive, wait, link_disciplina_arquivos, pwd_materia_tmp, geral=False)
-
+        procedimento_baixar_arquivos(webdrive, wait, link_disciplina_arquivos, pwd_materia_tmp, geral=False, nome_disciplina=disciplina['nmDisciplina'])
 # BAIXANDO ARQUIVOS DAS DISCIPLINAS - END
-
-
-# elemento_arquivos = webdrive.find_element_by_xpath(elemento_arquivos)
-
-# for element in elemento_arquivos:
-#     print(element.text)
-
-# print(elemento_arquivos.get_attribute('innerHTML'))
 webdrive.quit()
 if DOCKER_ON:
     display.stop()

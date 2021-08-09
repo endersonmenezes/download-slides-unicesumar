@@ -11,7 +11,7 @@ from auxiliar.funcoes import rota_download_arquivo_geral, nome_arquivo_safe
 from selenium.common.exceptions import TimeoutException
 
 
-def procedimento_baixar_arquivos(webdrive, wait, rota, directory_pwd, geral):
+def procedimento_baixar_arquivos(webdrive, wait, rota, directory_pwd, geral, nome_disciplina):
     # TODO Estamos utilizando GERAL(BOOL) para controlar, porém a rota é a mesma, parece que pegamos o XPATH incorreto. Realizar mais testes
     webdrive.get(rota)
     if geral:
@@ -36,6 +36,6 @@ def procedimento_baixar_arquivos(webdrive, wait, rota, directory_pwd, geral):
             with open(tmp_pwd, 'wb') as file:
                 for chunk in r_page.iter_content(1000):
                     file.write(chunk)
-            print('Arquivo Geral: {} - Baixado!'.format(arquivo['descricao']))
+            print(f'{nome_disciplina}: {arquivo["descricao"]} - Baixado!')
     except TimeoutException:
         pass
