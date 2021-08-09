@@ -21,7 +21,7 @@ if DOCKER_ON:
     print('Carregando display virtual...')
 
 load_dotenv()
-directory_pwd = './universidade/'
+directory_pwd = os.getenv('DIRECTORY_FILES')
 user_ra = os.getenv('STUDEO_USER')
 user_pass = os.getenv('STUDEO_PASS')
 os_user = os.getenv('OS_USER')

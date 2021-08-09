@@ -17,10 +17,12 @@ Na pasta que o git criou, ou que você extrair os arquivos baixados, crie um arq
 ```.env
 STUDEO_USER=""
 STUDEO_PASS=""
+DIRECTORY_FILES=""
 ```
 
 Preencha com seu usuário e sua senha do Studeo.
 Para criar o arquivo, você pode utilizar o bloco de notas, lembre-se de alterar a extensão dele.
+O campo `DIRECTORY_FILES` refere-se aonde você quer que o download de materiais seja realizado.
 
 ## Como executar?
 Basta você ter o Docker instalado em seu computador. Se você utiliza Windows, [esse site](https://docs.docker.com/docker-for-windows/install/) pode te ajudar.
